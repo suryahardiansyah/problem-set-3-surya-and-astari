@@ -31,7 +31,7 @@ def preview_data(df):
         x='Random Numbers',
         y='count()'
     )
-    return [df.head(), histogram]
+    return [df.head(), df.describe(), histogram]
 
 preview_data(data)
 ```
